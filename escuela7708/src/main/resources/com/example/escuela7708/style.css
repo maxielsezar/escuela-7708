@@ -1,0 +1,189 @@
+
+*{
+    -fx-font: 14px "Helvetica Neue" ;
+}
+
+.button{
+    -fx-text-fill: #000000;
+    -fx-background-color:#E8EAF6;
+    -fx-padding: 5;
+    -fx-alignment: CENTER;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+    -fx-shadow-highlight-color: f0f0f0;
+}
+
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1c6fb8, #15558c);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color:  linear-gradient(to right, #1c6fb8, #15558c);
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1c6fb8, #15558c);
+}
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell: highlighted {
+    -fx-background-color: #81c483;
+    -fx-background-radius: 15px;
+}
+
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+
+.menu-button {
+    -fx-background-color: white;
+}
+
+.menu-button .label{
+    -fx-text-fill: black;
+}
+.menu-button .menu-item .label {
+    -fx-text-fill: black ;
+}
+
+
+.tab {
+    -fx-background-color: #1c6fb8;
+    -fx-font: 16px "Helvetica Neue" ;
+    -fx-background-radius: 0;
+}
+
+.tab-label {
+    -fx-text-fill: #fff;
+}
+
+.tab:focused .tab-label {
+    -fx-text-fill: #fff;
+}
+
+.tab-header-background {
+    -fx-background-color: #1c6fb8;
+}
+
+.tab-pane {
+    -fx-tab-min-width:120px;
+    -fx-tab-max-width:120px;
+    -fx-tab-min-height:50px;
+    -fx-tab-max-height:50px;
+    -fx-background-color: #15558c;
+}
+
+.tab:selected {
+    -fx-background-color: #15558c;
+    -fx-tab-height:150px;
+}
+
+.label {
+    -fx-text-fill: #FFFFFF;
+}
+
+.dialog-pane{
+  -fx-border-color:black;
+  -fx-border-width:2.0px;
+}
+
+.dialog-pane > .button-bar > .container {
+  -fx-background-color:black;
+}
+
+.dialog-pane > .content.label {
+   -fx-padding: 0.5em 0.5em 0.5em 0.5em;
+   -fx-background-color: yellow;
+   -fx-text-fill:black;
+   -fx-font-size:15.0px;
+}
+
+/**Costumization of DialogPane Header**/
+.dialog-pane:header .header-panel {
+  -fx-background-color: black;
+}
+
+.dialog-pane:header .header-panel .label{
+  -fx-background-color: yellow;
+  -fx-background-radius:10px;
+  -fx-text-fill:black;
+  -fx-font-size:15.0px;
+}
+
+
+/**Costumization of Buttons**/
+.dialog-pane .button{
+   -fx-background-color:black;
+   -fx-text-fill:white;
+   -fx-wrap-text: true;
+   -fx-effect: dropshadow( three-pass-box, yellow, 10.0, 0.0, 0.0, 0.0);
+   -fx-cursor:hand;
+ }
+
+.dialog-pane .button:hover{
+  -fx-background-color:white;
+  -fx-text-fill:black;
+  -fx-font-weight:bold;
+ }
+
+.date-picker .arrow-button {
+	-fx-background-color: #1c6fb8;
+	-fx-background-radius: 0;
+}
+.date-picker .arrow-button:hover {
+	-fx-background-color: #1c6fb8;
+}
+.date-picker .arrow-button .arrow {
+	-fx-background-color: white;
+}
+.date-picker .cell {
+	-fx-background-color: white;
+}
+.date-picker .cell:hover {
+	-fx-background-color: #1c6fb8;
+}
+.date-picker .button {
+	-fx-background-color: #1c6fb8;
+}
+.date-picker .cell:focused {
+	-fx-background-color: #1c6fb8;
+}
+.date-picker .selected {
+	-fx-background-color: #1c6fb8;
+	-fx-text-fill: white;
+}
+.date-picker .selected:focused {
+	-fx-background-color: #1c6fb8;
+	-fx-text-fill: white;
+}
+.date-picker-popup  {
+	-fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+	-fx-background-color: #1c6fb8;
+}
+.date-picker-popup .month-year-pane .label {
+	-fx-text-fill: white;
+}
+.date-picker-popup .week-number-cell {
+	-fx-text-fill: -fx-secondary-color;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+	-fx-background-color: white;
+}
+.cb .context-menu {
+    -fx-text-fill: black;
+}
+
+.list{
+    -fx-text-fill: black;
+}
+
+.choice-box > * {
+    -fx-text-fill: black;
+}
+

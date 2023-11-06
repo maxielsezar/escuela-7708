@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="459.0" stylesheets="@style.css" style="-fx-background-color: #1c6fb8;" prefWidth="734.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escuela7708.controladores.DocentesMateriasController">
+
+    <children>
+        <TableView fx:id="t_cursos" layoutX="65.0" layoutY="100.0" prefHeight="305.0" prefWidth="585.0">
+            <columns>
+                <TableColumn fx:id="c_materia" prefWidth="199.0" text="Materia" />
+                <TableColumn fx:id="c_curso" prefWidth="199.0" text="Curso" />
+                <TableColumn fx:id="UEM" prefWidth="199.0" text="UEM" />
+            </columns>
+        </TableView>
+            <ChoiceBox fx:id="docentes" layoutX="65.0" layoutY="42.0" prefWidth="150.0" />
+      <Label layoutX="65.0" layoutY="19.0" text="Docente" />
+      <Button fx:id="eliminar" layoutX="189.0" layoutY="420.0" mnemonicParsing="false" onAction="#eliminarMateria" text="Eliminar Materia" />
+      <Button layoutX="507.0" layoutY="42.0" mnemonicParsing="false" onAction="#materiasSinDocente" text="Ver Materia sin docente" />
+      <Button fx:id="agregar" layoutX="65.0" layoutY="420.0" mnemonicParsing="false" onAction="#agregarBton" text="Añadir docente" />
+        <Label fx:id="totalHoras" layoutX="254.0" layoutY="46.0" text="Horas: " />
+    </children>
+
+
+</AnchorPane>

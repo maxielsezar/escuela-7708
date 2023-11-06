@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escuela7708.controladores.CalificadorController">
+    <children>
+
+        <Label layoutX="30.0" layoutY="31.0" text="EUM:" />
+        <Label layoutX="200.0" layoutY="31.0" text="Localidad:" />
+        <Label layoutX="700.0" layoutY="31.0" text="Orientacion:" />
+        <Label fx:id="orientacion" layoutX="770.0" layoutY="31.0"  />
+
+        <Label layoutX="700.0" layoutY="69.0" text="Año:" />
+
+        <Label fx:id="localidad" layoutX="260.0" layoutY="31.0" />
+        <Label layoutX="500.0" layoutY="31.0" text="Curso:" />
+        <Label layoutX="30.0" layoutY="69.0" text="Espacio Curricular:" />
+        <Label layoutX="200.0" layoutY="69.0" text="Tutor:" />
+        <Label layoutX="500.0" layoutY="69.0" text="Profesor:" />
+        <TableView editable="true" layoutX="20.0" layoutY="125.0" prefHeight="455.0" prefWidth="904.0" tableMenuButtonVisible="true">
+            <columns>
+                <TableColumn prefWidth="75.0" text="Estudiante" />
+                <TableColumn prefWidth="75.0" text="DNI" />
+                <TableColumn prefWidth="75.0" text="nota 1er cuatrimestre" />
+                <TableColumn prefWidth="75.0" text="nota 2er cuatrimestre" />
+                <TableColumn prefWidth="75.0" text="nota 3er cuatrimestre" />
+                <TableColumn prefWidth="75.0" text="nota final (num)" />
+                <TableColumn prefWidth="75.0" text="nota final (letra)" />
+                <TableColumn prefWidth="75.0" text="escuela verano" />
+                <TableColumn prefWidth="75.0" text="instancia febrero/marzo" />
+                <TableColumn prefWidth="75.0" text="nota definitiva(num)" />
+                <TableColumn prefWidth="75.0" text="nota definitiva(letra)" />
+                <TableColumn prefWidth="75.0" text="observacion" />
+            </columns>
+        </TableView>
+      <MenuButton fx:id="menuUEM" layoutX="66.0" layoutY="27.0" mnemonicParsing="false" text="EUM">
+      </MenuButton>
+
+
+        <MenuButton fx:id="menuCurso" layoutX="550.0" layoutY="27.0" mnemonicParsing="false" text="Curso">
+        </MenuButton>
+
+        <TextField fx:id="tc_docente" layoutX="550.0" layoutY="65.0" prefHeight="25.0" prefWidth="100.0" />
+
+        <TextField fx:id="t_anyo" layoutX="730.0" layoutY="65.0" prefHeight="25.0" prefWidth="100.0" />
+
+
+        <TextField fx:id="t_tutor" layoutX="730.0" layoutY="65.0" prefHeight="25.0" prefWidth="100.0" />
+
+        <ListView fx:id="list" layoutX="550.0" layoutY="90.0" onMouseClicked="#seleccion" prefHeight="250.0" prefWidth="150.0" scaleShape="false" visible="false" />
+    </children>
+</AnchorPane>

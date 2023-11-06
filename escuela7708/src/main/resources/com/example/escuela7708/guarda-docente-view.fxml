@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane style="-fx-background-color: #1c6fb8;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escuela7708.controladores.guardarDocenteController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label layoutX="100.0" layoutY="20" text="Nombre" />
+    <Label layoutX="300" layoutY="20" text="Apellido" />
+    <Label layoutX="500" layoutY="20" text="Fecha de nacimiento" />
+
+    <TextField fx:id="t_nombre" layoutX="100.0" layoutY="40" />
+    <TextField fx:id="t_apellido" layoutX="300" layoutY="40" />
+    <DatePicker fx:id="t_fecha" layoutX="500" layoutY="40" />
+
+    <Label layoutX="100.0" layoutY="100" text="DNI" />
+    <Label layoutX="300" layoutY="100" text="CUIL" />
+    <Label layoutX="500" layoutY="100" text="Email" />
+
+    <TextField fx:id="t_dni" layoutX="100" layoutY="120" />
+    <TextField fx:id="t_cuil" layoutX="300" layoutY="120" />
+    <TextField fx:id="t_email" layoutX="500" layoutY="120" />
+
+    <Label layoutX="100" layoutY="170" text="Sexo" />
+    <MenuButton fx:id="sexo" layoutX="100" layoutY="190" mnemonicParsing="false" text="M">
+
+      <items>
+         <MenuItem fx:id="M" mnemonicParsing="false" onAction="#cambiarSexoM" text="M" />
+         <MenuItem fx:id="F" mnemonicParsing="false" onAction="#cambiarSexoF" text="F" />
+      </items></MenuButton>
+
+    <Button fx:id="boton" layoutX="500" layoutY="190" mnemonicParsing="false" onAction="#guardar" text="GUARDAR" />
+
+</AnchorPane>
