@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="300.0" prefWidth="500.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escuela7708.controladores.GuardarDocenteUemController">
+   <children>
+
+      <TextField fx:id="t_docente" layoutX="100" layoutY="40" />
+      <ListView fx:id="list" layoutX="100.0" layoutY="65.0" onMouseClicked="#seleccion" prefHeight="150.0" prefWidth="150.0" />
+      <DatePicker fx:id="dia" layoutX="300" layoutY="40" />
+      <Button onAction="#guardar" layoutX="300" layoutY="190" mnemonicParsing="false" text="Guardar" />
+
+   </children>
+</AnchorPane>

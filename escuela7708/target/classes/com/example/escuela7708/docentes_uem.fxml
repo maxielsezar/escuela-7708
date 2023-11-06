@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.escuela7708.controladores.DocentesUemController">
+   <children>
+      <ListView fx:id="listaView" layoutX="180.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+      <ChoiceBox fx:id="docentes" layoutX="180.0" layoutY="36.0" prefWidth="150.0" />
+      <MenuButton fx:id="uemCB" layoutX="337.0" layoutY="36.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
