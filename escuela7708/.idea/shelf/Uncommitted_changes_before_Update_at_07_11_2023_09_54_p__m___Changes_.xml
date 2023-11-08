@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]" date="1699404846297" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 07/11/2023 09:54 p. m. [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/escuela7708/controladores/InicioController.class" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/escuela7708/controladores/VistaPrincipal$1.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/escuela7708/controladores/VistaPrincipal$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/VistaPrincipal$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/escuela7708/controladores/GuardarDocenteUemController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/escuela7708/controladores/GuardarDocenteUemController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/GuardarDocenteUemController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/escuela7708/controladores/VistaPrincipal.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/escuela7708/controladores/VistaPrincipal.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/VistaPrincipal.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/module-info.class" />
+    <option name="AFTER_PATH" value="target/classes/module-info.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/module-info.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/escuela7708/controladores/tablaDocenteFecha.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/escuela7708/controladores/tablaDocenteFecha.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/tablaDocenteFecha.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/example/escuela7708/modelo/clases/docente_dia.class" />
+    <option name="AFTER_PATH" value="target/classes/com/example/escuela7708/modelo/clases/docente_dia.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_11_2023_09_54_p_ m__[Changes]/docente_dia.class" />
+  </binary>
+</changelist>
