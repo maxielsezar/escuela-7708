@@ -2,7 +2,7 @@ module com.example.calendario {
     requires javafx.controls;
     requires javafx.fxml;
     requires java.sql;
-    requires mysql.connector.j;
+
 
 
     opens com.example.escuela7708 to javafx.fxml;
