@@ -93,6 +93,9 @@
                         <Button fx:id="eliminar" layoutX="826.0" layoutY="846.0" mnemonicParsing="false" onAction="#eliminiar" text="Eliminar" />
                         <Button layoutX="486.0" layoutY="846.0" mnemonicParsing="false" onAction="#abrirVentanaAgregar" text="Agregar" />
                     </children>
+               <padding>
+                  <Insets right="10.0" top="10.0" />
+               </padding>
                 </AnchorPane>
             </content>
         </Tab>
